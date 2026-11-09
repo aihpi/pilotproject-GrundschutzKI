@@ -1,0 +1,31 @@
+{
+ "docs": 2516,
+ "top_k": 5,
+ "embed_model": "octen-embedding-8b",
+ "summary": {
+  "gpt-oss-120b/rag": {
+   "exact": 54,
+   "n": 71,
+   "exact_pct": 76.1,
+   "per_option_pct": 89.8
+  },
+  "gpt-oss-120b/no_rag": {
+   "exact": 46,
+   "n": 71,
+   "exact_pct": 64.8,
+   "per_option_pct": 87.7
+  },
+  "gemma-4-31b/rag": {
+   "exact": 56,
+   "n": 71,
+   "exact_pct": 78.9,
+   "per_option_pct": 94.0
+  },
+  "gemma-4-31b/no_rag": {
+   "exact": 53,
+   "n": 71,
+   "exact_pct": 74.6,
+   "per_option_pct": 91.2
+  }
+ }
+}

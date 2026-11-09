@@ -1,0 +1,1044 @@
+[
+ {
+  "id": 1,
+  "given": [
+   "A",
+   "B",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "B",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+ },
+ {
+  "id": 2,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 3,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 4,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 5,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 6,
+  "given": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "C",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 7,
+  "given": [
+   "A",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 8,
+  "given": [
+   "C"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\"]}"
+ },
+ {
+  "id": 9,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 10,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 11,
+  "given": [
+   "A",
+   "B"
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\"]}"
+ },
+ {
+  "id": 12,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 13,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 14,
+  "given": [
+   "A",
+   "B"
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\"]}"
+ },
+ {
+  "id": 15,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 16,
+  "given": [
+   "C"
+  ],
+  "correct": [
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\"]}"
+ },
+ {
+  "id": 17,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 18,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 18,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "B",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 19,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 20,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 21,
+  "given": [
+   "A",
+   "B",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "B",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+ },
+ {
+  "id": 22,
+  "given": [
+   "B",
+   "D"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"D\"]}"
+ },
+ {
+  "id": 23,
+  "given": [
+   "A"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\"]}"
+ },
+ {
+  "id": 24,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 25,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 26,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 27,
+  "given": [
+   "B",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"D\"]}"
+ },
+ {
+  "id": 28,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 29,
+  "given": [
+   "A",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 30,
+  "given": [
+   "C"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\"]}"
+ },
+ {
+  "id": 31,
+  "given": [
+   "A",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\"]}"
+ },
+ {
+  "id": 32,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 33,
+  "given": [
+   "A",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 34,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 35,
+  "given": [
+   "B",
+   "C"
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\"]}"
+ },
+ {
+  "id": 36,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 37,
+  "given": [
+   "B",
+   "C"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\"]}"
+ },
+ {
+  "id": 38,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 39,
+  "given": [
+   "B",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"D\"]}"
+ },
+ {
+  "id": 40,
+  "given": [
+   "A"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\"]}"
+ },
+ {
+  "id": 41,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 42,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 43,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 44,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 45,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 46,
+  "given": [
+   "A",
+   "B",
+   "C"
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+ },
+ {
+  "id": 47,
+  "given": [
+   "A",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\"]}"
+ },
+ {
+  "id": 48,
+  "given": [
+   "A",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"D\"]}"
+ },
+ {
+  "id": 49,
+  "given": [
+   "A",
+   "B",
+   "D"
+  ],
+  "correct": [
+   "A",
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+ },
+ {
+  "id": 50,
+  "given": [
+   "A",
+   "B",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+ },
+ {
+  "id": 51,
+  "given": [
+   "A",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\"]}"
+ },
+ {
+  "id": 52,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ },
+ {
+  "id": 53,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 54,
+  "given": [
+   "C",
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\", \"D\"]}"
+ },
+ {
+  "id": 55,
+  "given": [
+   "A",
+   "C"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\"]}"
+ },
+ {
+  "id": 56,
+  "given": [
+   "B",
+   "C"
+  ],
+  "correct": [
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.75,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\"]}"
+ },
+ {
+  "id": 57,
+  "given": [
+   "A",
+   "B"
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\"]}"
+ },
+ {
+  "id": 58,
+  "given": [
+   "B",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\"]}"
+ },
+ {
+  "id": 59,
+  "given": [
+   "A"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\"]}"
+ },
+ {
+  "id": 60,
+  "given": [
+   "A",
+   "B",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+ },
+ {
+  "id": 61,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 62,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 63,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 64,
+  "given": [
+   "C"
+  ],
+  "correct": [
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"C\"]}"
+ },
+ {
+  "id": 65,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 66,
+  "given": [
+   "A",
+   "C"
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\"]}"
+ },
+ {
+  "id": 67,
+  "given": [
+   "A",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "exact": false,
+  "per_option": 0.25,
+  "sources": [],
+  "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 68,
+  "given": [
+   "B",
+   "C",
+   "D"
+  ],
+  "correct": [
+   "B",
+   "C",
+   "D"
+  ],
+  "exact": true,
+  "per_option": 1.0,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+ },
+ {
+  "id": 69,
+  "given": [
+   "D"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"D\"]}"
+ },
+ {
+  "id": 70,
+  "given": [
+   "B"
+  ],
+  "correct": [
+   "A"
+  ],
+  "exact": false,
+  "per_option": 0.5,
+  "sources": [],
+  "raw": "{\"answers\": [\"B\"]}"
+ }
+]

@@ -11,6 +11,7 @@ Scripts for parsing BSI IT-Grundschutz documents into structured JSON format.
   - [parse_grundschutz.py](#parse_grundschutzpy)
 - [parse_standards_pdf.py](#parse_standards_pdfpy)
 - [gski_pipeline.py](#gski_pipelinepy)
+- [run_praktiker_exam.py](#run_praktiker_exampy)
 - [Output Structure](#output-structure)
 - [JSON Schemas](#json-schemas)
 
@@ -25,6 +26,7 @@ These scripts extract structured data from BSI IT-Grundschutz source documents:
 | `parse_glossar.py` | XML Kompendium | `glossar.json` |
 | `parse_grundschutz.py` | XML Kompendium | `grundschutz.json` |
 | `parse_standards_pdf.py` | BSI Standard 200-* PDFs | Individual chunk files |
+| `run_praktiker_exam.py` | Preprocessed corpus and `08_IT-GS-Praktiker-Pruefungsfragen.json` | Exam scores with and without retrieval, see `data/results/praktiker-exam-2026-11-09.md` |
 
 ---
 
@@ -259,3 +261,16 @@ ingest_docs(docs, collection_name="grundschutz_json", recreate=True)
 | Basis-Anforderung | `B` | Mandatory for all protection levels |
 | Standard-Anforderung | `S` | Recommended for standard protection |
 | Erhöhter Schutzbedarf | `H` | For enhanced protection requirements |
+
+---
+
+## run_praktiker_exam.py
+
+Answers the 71 multiple-choice questions of the IT-Grundschutz-Praktiker exam (`data/data_evaluation/08_IT-GS-Praktiker-Pruefungsfragen.json`) with and without retrieval and scores them against the key (issue #15). The corpus is built from `grundschutz.json` (requirements, Baustein descriptions, threats), the standards chunks and `glossar.json`; embeddings are cached in the output folder, retrieval uses an in-memory Qdrant with top-k 5.
+
+```bash
+set -a; . notebooks/.env; set +a
+uv run python scripts/run_praktiker_exam.py . data/results/praktiker-exam-$(date +%F) gpt-oss-120b gemma-4-31b
+```
+
+Reads `LITELLM_API_BASE`, `LITELLM_API_KEY` and `EMBEDDING_MODEL`; falls back to the AI Hub with `AISC_API_KEY`. Writes `summary.json` and one `results_<model>_<rag|no_rag>.json` per condition. The run of 2026-11-09 is documented in `data/results/praktiker-exam-2026-11-09.md`.
